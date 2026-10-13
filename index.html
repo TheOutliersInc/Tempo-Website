@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0A0E27">
+<meta name="description" content="Build practical data analysis skills with The Outliers Academy. Learn Excel, SQL and Power BI with an accessible learning pathway.">
+<title>Data Analysis Programme | The Outliers Academy</title>
+<style>
+:root{--navy:#0A0E27;--navy2:#10183A;--blue:#3478F6;--blue2:#75A5FF;--gold:#D9B66F;--white:#F8FAFF;--muted:#B7C2DD;--line:rgba(180,198,235,.18);--panel:rgba(255,255,255,.045)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--navy);color:var(--white);font-family:Inter,Manrope,Arial,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0;border-bottom:1px solid var(--line);gap:20px}.brand{display:flex;align-items:center;gap:11px;font-weight:850;letter-spacing:.04em}.mark{width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,var(--blue),#1645B8);display:grid;place-items:center;font-size:21px;box-shadow:0 8px 24px #3478f633}.brand small{display:block;color:var(--blue2);font-size:10px;letter-spacing:.19em}.navlinks{display:flex;gap:22px;color:var(--muted);font-size:13px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 18px;border-radius:10px;font-weight:800;font-size:14px;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px)}.primary{background:var(--blue);color:white;box-shadow:0 10px 28px #3478f633}.secondary{border:1px solid var(--line);background:#ffffff08}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--blue2);font-size:12px;font-weight:850;letter-spacing:.15em;text-transform:uppercase}.eyebrow:before{content:'';height:2px;width:22px;background:var(--gold)}.hero{padding:76px 0 64px;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:55px}.hero h1{font-size:clamp(42px,6vw,72px);line-height:1.03;letter-spacing:-.055em;margin:20px 0}.hero h1 em{font-style:normal;color:var(--blue2)}.lead{font-size:18px;color:var(--muted);max-width:600px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 22px}.micro{font-size:12px;color:var(--muted)}.hero-card{position:relative;border:1px solid #6c94ff44;background:linear-gradient(155deg,#17234d,#0e1533 72%);border-radius:24px;padding:28px;overflow:hidden;box-shadow:0 28px 70px #0005}.hero-card:before{content:'';position:absolute;width:250px;height:250px;right:-100px;top:-100px;border:1px solid #3478f655;border-radius:50%;box-shadow:0 0 0 25px #3478f610,0 0 0 50px #3478f608}.hero-card>*{position:relative}.card-top{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:12px}.pill{border:1px solid #d9b66f55;border-radius:999px;padding:5px 9px;color:var(--gold);font-size:10px;font-weight:800;letter-spacing:.1em}.price{font-size:45px;font-weight:900;letter-spacing:-.04em;margin:25px 0 0}.price small{font-size:14px;color:var(--muted);font-weight:600;letter-spacing:0}.total{color:var(--muted);font-size:13px}.rule{height:1px;background:var(--line);margin:23px 0}.tool{display:flex;align-items:center;gap:12px;margin:13px 0}.tool-icon{width:39px;height:39px;display:grid;place-items:center;border-radius:11px;background:#3478f61c;border:1px solid #3478f644;color:var(--blue2);font-weight:900}.tool b{display:block;font-size:14px}.tool span{font-size:12px;color:var(--muted)}section{padding:70px 0}.section-head{max-width:690px;margin-bottom:32px}.section-head h2{font-size:clamp(30px,4vw,46px);line-height:1.1;letter-spacing:-.04em;margin:13px 0}.section-head p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:23px}.panel .num{color:var(--gold);font-size:12px;font-weight:900;letter-spacing:.12em}.panel h3{font-size:19px;margin:12px 0 8px}.panel p,.panel li{color:var(--muted);font-size:14px}.panel ul{padding-left:19px;margin-bottom:0}.band{background:linear-gradient(110deg,#111b42,#0e1430);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.path{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{padding:22px;border-left:2px solid var(--blue);background:#ffffff04;border-radius:0 13px 13px 0}.step small{color:var(--gold);font-weight:850;letter-spacing:.1em}.step h3{margin:9px 0}.step p{margin:0;color:var(--muted);font-size:14px}.outcomes{display:grid;grid-template-columns:1fr 1fr;gap:12px}.outcome{display:flex;gap:12px;padding:15px;border:1px solid var(--line);border-radius:12px;color:#e9efff;font-size:14px}.check{color:var(--gold);font-weight:900}.pricing{display:grid;grid-template-columns:1fr .8fr;gap:25px;align-items:center}.price-box{border:1px solid #3478f666;background:linear-gradient(145deg,#14204a,#0e1532);padding:30px;border-radius:22px}.price-box h3{margin-top:0}.big-price{font-size:52px;font-weight:900;letter-spacing:-.05em;line-height:1.1}.big-price span{font-size:14px;letter-spacing:0;color:var(--muted);font-weight:600}.note{font-size:12px;color:var(--muted)}.faq{border-bottom:1px solid var(--line);padding:18px 0}.faq h3{font-size:16px;margin:0 0 6px}.faq p{margin:0;color:var(--muted);font-size:14px}.final-cta{border:1px solid #3478f655;background:radial-gradient(ellipse at 80% 0%,#244da333,transparent 48%),#ffffff05;border-radius:23px;padding:clamp(25px,5vw,48px);display:flex;align-items:center;justify-content:space-between;gap:25px}.final-cta h2{font-size:clamp(28px,4vw,42px);line-height:1.1;letter-spacing:-.04em;margin:10px 0}.final-cta p{color:var(--muted);max-width:570px}.footer{padding:28px 0 38px;color:var(--muted);font-size:12px}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:22px}.footer a{color:var(--blue2)}
+@media(max-width:780px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding:54px 0 42px;gap:30px}.hero-card{max-width:500px}.grid,.path{grid-template-columns:1fr}.pricing{grid-template-columns:1fr}.outcomes{grid-template-columns:1fr}.final-cta{align-items:flex-start;flex-direction:column}section{padding:52px 0}.hero h1{font-size:clamp(42px,12vw,62px)}}
+.brand-logo {
+  display: block;
+  width: 180px;
+  height: auto;
+  max-height: 60px;
+  object-fit: contain;
+}
+.logo h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+ <a class="brand" href="#top" aria-label="The Outliers Academy home">
+  <img src="assets/images/logo.png" alt="The Outliers Academy logo" class="brand-logo">
+  <h2>The Outliers</h2>
+</a>
+  <nav class="navlinks"><a href="#curriculum">Curriculum</a><a href="#how-it-works">How it works</a><a href="#fees">Fees</a></nav>
+  <a class="btn primary" href="#enrol">Explore enrolment ↗</a>
+</header>
+<main id="top">
+  <div class="wrap hero">
+    <div>
+      <div class="eyebrow">Data Analysis Programme</div>
+      <h1>Your tech journey shouldn't be stopped by the <em>price tag.</em></h1>
+      <p class="lead">Build practical data analysis skills with The Outliers Academy. Learn to work with data, uncover useful insights, and communicate what the numbers mean—through a more accessible learning pathway.</p>
+      <div class="actions"><a class="btn primary" href="#enrol">View fees & enrol ↗</a><a class="btn secondary" href="#curriculum">Explore the curriculum ↓</a></div>
+      <p class="micro">Excel · SQL · Microsoft Power BI · Practical learning</p>
+    </div>
+    <aside class="hero-card" aria-label="Programme overview">
+      <div class="card-top"><span>YOUR LEARNING PATH</span><span class="pill">BUILD PRACTICAL SKILLS</span></div>
+      <div class="price">₦15,000 <small>/ month</small></div>
+      <div class="total">3-month programme · ₦45,000 total at the stated monthly rate</div>
+      <div class="rule"></div>
+      <div class="tool"><div class="tool-icon">X</div><div><b>Microsoft Excel</b><span>Clean, organise and analyse data</span></div></div>
+      <div class="tool"><div class="tool-icon">SQL</div><div><b>SQL</b><span>Query and combine information</span></div></div>
+      <div class="tool"><div class="tool-icon">▥</div><div><b>Microsoft Power BI</b><span>Build reports and interactive dashboards</span></div></div>
+      <div class="rule"></div><p class="micro">Curriculum and programme details should be confirmed with our team before enrolment.</p>
+    </aside>
+  </div>
+  <section class="band" id="why">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Why The Outliers Academy</div><h2>Access should be a starting point—not a barrier.</h2><p>We believe more people should have a realistic path into practical technology skills. Our focus is helping learners build useful foundations, practise with data, and grow their confidence step by step.</p></div>
+      <div class="grid">
+        <article class="panel"><div class="num">01 / LEARN</div><h3>Build your foundations</h3><p>Understand the tools and techniques used to organise, query, analyse and present data.</p></article>
+        <article class="panel"><div class="num">02 / PRACTISE</div><h3>Work through real tasks</h3><p>Use exercises and practical work to turn concepts into skills you can explain and demonstrate.</p></article>
+        <article class="panel"><div class="num">03 / GROW</div><h3>Keep moving forward</h3><p>Develop a foundation you can continue building on as you explore data roles and projects.</p></article>
+      </div>
+    </div>
+  </section>
+  <section id="curriculum">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">What you'll learn</div><h2>A practical path from raw data to useful insights.</h2><p>The programme centres on three core tools. Explore the three core modules and the topics included in the programme.</p></div>
+      <div class="grid">
+        <article class="panel"><div class="num">MODULE 01</div><h3>Advanced Excel Tools and Techniques</h3><p>Build spreadsheet skills for preparing, analysing and presenting data.</p><ul><li>Excel Basics</li><li>Logical and Conditional Functions</li><li>Data Collection</li><li>Data Preparation</li><li>Power Query</li><li>Data Modelling</li><li>Dashboard Creation 1</li><li>Dashboard Creation 2</li><li>Module Completion Project</li></ul></article>
+        <article class="panel"><div class="num">MODULE 02</div><h3>Microsoft Power BI</h3><p>Learn to work with data in Power BI and present insights through dashboards.</p><ul><li>Introduction to Power BI</li><li>Working with Power BI</li><li>DAX</li><li>Dashboards</li><li>Capstone Project</li></ul></article>
+        <article class="panel"><div class="num">MODULE 03</div><h3>SQL</h3><p>Develop querying skills for working with structured data in relational databases.</p><ul><li>Introduction to SQL</li><li>Data Types and Aggregate Functions</li><li>Relationships, Keys and Joins</li><li>Professional Logic</li><li>Window Functions and CTEs</li></ul></article>
+      </div>
+      <p class="note" style="margin-top:16px">Important: confirm the exact topics, sequence, project deliverables, class schedule and support arrangements with the academy before this page goes public.</p>
+    </div>
+  </section>
+  <section class="band" id="how-it-works">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Your learning journey</div><h2>Learn one step at a time.</h2><p>A simple overview of the path. The academy should confirm the official schedule and delivery format before launch.</p></div>
+      <div class="path">
+        <article class="step"><small>STEP 01</small><h3>Start with the foundations</h3><p>Get comfortable with data, spreadsheets and the core habits of analysis.</p></article>
+        <article class="step"><small>STEP 02</small><h3>Query and transform</h3><p>Build your ability to work with data from different sources and answer specific questions.</p></article>
+        <article class="step"><small>STEP 03</small><h3>Communicate insights</h3><p>Practise turning findings into clear reports and dashboards for an audience.</p></article>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">What you're working toward</div><h2>Skills you can put into practice.</h2><p>By developing these foundations, learners can work toward being able to:</p></div>
+      <div class="outcomes">
+        <div class="outcome"><span class="check">✓</span><span>Clean and organise structured data.</span></div>
+        <div class="outcome"><span class="check">✓</span><span>Use formulas, queries and calculations to investigate questions.</span></div>
+        <div class="outcome"><span class="check">✓</span><span>Combine information from relevant data tables.</span></div>
+        <div class="outcome"><span class="check">✓</span><span>Build readable reports and dashboards.</span></div>
+        <div class="outcome"><span class="check">✓</span><span>Explain findings in a way that supports decisions.</span></div>
+        <div class="outcome"><span class="check">✓</span><span>Continue developing a portfolio through further practice.</span></div>
+      </div>
+      <p class="note" style="margin-top:14px">These are learning aims, not a guarantee of employment, certification or a particular career outcome.</p>
+    </div>
+  </section>
+  <section class="band" id="fees">
+    <div class="wrap pricing">
+      <div><div class="eyebrow">Straightforward pricing</div><h2 style="font-size:clamp(32px,4vw,48px);line-height:1.1;letter-spacing:-.04em">Start building your skills without a ₦350,000 barrier.</h2><p style="color:var(--muted)">The programme is paid in three separate monthly payments of ₦15,000 each. The total across three months is ₦45,000.</p><div class="micro">Accessible learning. Practical tools. A clearer starting point.</div></div>
+      <div class="price-box"><span class="pill">DATA ANALYSIS</span><h3 style="margin:19px 0 8px">Programme fee</h3><div class="big-price">₦15,000 <span>/ month</span></div><div class="rule"></div><p style="margin:0 0 8px">3 separate monthly payments · ₦45,000 total</p><p class="note">Pay ₦15,000 each month for three months. Each monthly payment is separate; total programme cost is ₦45,000.</p><a class="btn primary" style="width:100%;margin-top:16px" href="#enrol">Continue to enrolment ↗</a></div>
+    </div>
+  </section>
+  <section id="enrol">
+    <div class="wrap">
+      <div class="final-cta"><div><div class="eyebrow">Your next step</div><h2>Ready to explore your place?</h2><p>Take the next step into practical data analysis. Pay ₦15,000 per month for three months, as separate monthly payments.</p><div class="micro">Checkout opens the academy’s Paystack payment page. Check that the payment page is set up for the intended ₦15,000 monthly payment.</div></div><div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn primary" href="https://paystack.shop/pay/the-outliers-acad" id="checkout-button" target="_blank" rel="noopener noreferrer">Enrol now ↗</a><a class="btn secondary" href="https://wa.me/2348187141005?text=Hello%20The%20Outliers%20Academy%2C%20I%20have%20a%20question%20about%20the%20Data%20Analysis%20programme." target="_blank" rel="noopener noreferrer">Ask a question</a></div></div>
+    </div>
+  </section>
+  <section class="band" id="faq">
+    <div class="wrap"><div class="section-head"><div class="eyebrow">Before you enrol</div><h2>Questions worth asking.</h2></div>
+      <div class="faq"><h3>What is the programme fee?</h3><p>The programme costs ₦15,000 per month for three months, paid as three separate monthly payments. The total is ₦45,000.</p></div>
+      <div class="faq"><h3>What tools are covered?</h3><p>The programme focuses on Microsoft Excel, SQL and Microsoft Power BI. Ask the team for the final detailed syllabus and module sequence.</p></div>
+      <div class="faq"><h3>When do classes take place?</h3><p>Class dates, times, delivery format and the next start date should be confirmed directly with the academy.</p></div>
+      <div class="faq"><h3>How do I enrol?</h3><p>Use Enrol Now to open the academy’s Paystack payment page. The intended arrangement is a separate ₦15,000 payment each month for three months. If the amount shown differs, contact the team on WhatsApp before paying.</p></div>
+    </div>
+  </section>
+</main>
+<footer class="wrap footer"><div class="footer-row"><div><strong style="color:#fff">THE OUTLIERS ACADEMY</strong><br>Practical tech education. More accessible opportunities.</div><div><a href="https://linktr.ee/insights.ridwan">Main Linktree</a> · <a href="#curriculum">Curriculum</a> · <a href="#fees">Fees</a> · <a href="https://wa.me/2348187141005?text=Hello%20The%20Outliers%20Academy%2C%20I%20have%20a%20question." target="_blank" rel="noopener noreferrer">WhatsApp</a></div><div>© <span id="year">2026</span> The Outliers Academy</div></div></footer>
+<script>
+// PRE-PUBLISH CHECKS:
+// 1) Confirm Paystack is configured for the correct programme fee and payment arrangement.
+// 2) Curriculum headings added from the academy-provided outline.
+// 3) Confirm schedule, delivery format, programme dates, support, and all course claims.
+// Paystack checkout: https://paystack.shop/pay/the-outliers-acad
+// Admin WhatsApp: https://wa.me/2348187141005
+// This page does not process payments; payment is completed on Paystack.
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
